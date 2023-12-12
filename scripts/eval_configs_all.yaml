@@ -1,0 +1,14 @@
+---
+savefolder_root : "../SC/"
+# this will create a new folder with path savefolder_root + fold_name
+fold_name : "SC_2d_full_bg"
+
+train_dims: 2
+model_name : 'original'
+
+sc : false
+
+# If no need to load check point from anywhere
+model_weights_path : null
+load_epoch: '2000000'
+

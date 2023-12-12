@@ -1,0 +1,11 @@
+---
+savefolder_root : "../SC/"
+fold_name: "SC_2d_full_bg"
+
+gpu_device : 0
+
+sc: true
+
+model_name : 'original'
+train_dims : 2
+loss_weight: 9.0
